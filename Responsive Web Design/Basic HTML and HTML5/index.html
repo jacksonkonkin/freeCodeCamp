@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML and HTML5</title>
+</head>
+<body>
+    <header>
+        <h1 id="main-title">Responsive Web Design</h1>
+        <h2>Basic HTML and HTML5</h2>
+        <img src="Images/HTML5.png" alt="HTML5 Crest">
+    </header>
+    <main>
+        <div class="sec1">
+            <h3>1. Say Hello to HTML Elements</h3>
+        <p>
+            HTML elements are formed with opening and closing tags like &lth1&gt &lt/h1&gt which in this case is a main heading.
+        </p>
+        </div>
+        <div class="sec2">
+            <h3>2. Headline with the h3 Element</h3>
+            <p>
+                Much like the h1 heading element, there are h2, h3, and all the way to h6 elements to indicate the different levels of <br> 
+                subheadings.
+            </p>
+            <h5>Example:</h5>
+            <h1>This an h1 heading</h1>
+            <h2>This an h2 heading</h2>
+            <h3>This an h3 heading</h3>
+            <h4>This an h4 heading</h4>
+            <h5>This an h5 heading</h5>
+            <h6>This an h6 heading</h6>
+        </div>
+        <div class="sec3">
+            <h3>3. Inform with the Paragraph Element</h3>
+            <p>
+                &ltp&gt elements are for paragraphs. As a convention, html tags are written in lowercase. Most text blocks are written<br> 
+                inbetween 'p' tags.
+            </p>
+        </div>
+        <div class="sec4">
+            <h3>4. Fill in the Blank with Placeholder Text</h3>
+            <p>lorem ipsum text is usually used as placeholder text. This tradition has been going on since the 16th century.</p>
+        </div>
+        <div class="sec5">       
+            <h3>5. Writing HTML in plain text</h3>
+            <p>
+                To write HTML in plain text use the & with either a lt or gt to write &lt and &gt. Then write whatever between them to<br>
+                make it look like an HTML element.
+            </p>
+        </div>
+        <div class="sec6">
+            <h3>6. Uncomment HTML</h3>
+            <p>
+                To leave a comment in HTML, use &lt!-- to open comment and --&gt to close the comment. Comments are useful for describing<br>
+                your code.
+            </p>
+            <h5>Example:</h5>
+            <p>&lt!-- Comment Goes Here --&gt</p>
+        </div>
+        <div class="sec7">
+            <h3>7. Introduction to HTML5 Elements</h3>
+            <p>
+                HTML5 has many descriptive tags including: main, header, footer, nav, video, article, and others. Thses tags give structure<br>
+                to your HTML and make it easier to read. They also help with Search Engine Optimization (SEO) and accesibility.
+            </p>
+        </div>
+        <div class="sec8">
+            <h3>8. Add Images to Your Website</h3>
+            <p>
+                Add images with the img element. Point to a specific image's URL with the src attribute. An image must have an alt attribute.<br> 
+                The alt attribute is used for screen readers and improves the accesibility if image fails to load. If image is purely decorative<br>
+                then an empty alt attribute is best practice.
+            </p>
+            <h5>Example:</h5>
+            <p>
+                &ltimg src="https://www.freecatphotoapp.com/your-image.jpg" alt="This is the description"&gt.
+            </p>
+            <img src="Images/cityscape2.jpg" alt="cityscape2">
+        </div>
+        <div class="sec9">
+            <h3>9. Link to External Pages with Anchor Elements</h3>
+            <p>
+                With the use of the anchor element 'a', content outside of the webpage can be linked. 'a' elments need a destination using<br>
+                the href attribute. They also need anchor text. Another attribute for the anchor elemnts is the target, which specifies if<br>
+                the link opens up the webpage on a different tab or not. The attribute with _blank opens up the link in a new tab and if no<br>
+                target is specified, it opens in the same tab.
+            </p>
+            <h5>Example:</h5>
+            <p>&lta href="https://www.freecatphotoapp.com" target="_blank"&gtThis is a link using the anchor element</a></p>
+            <a href="https://www.freecatphotoapp.com" target="_blank">This is a link using the anchor element</a>
+        </div>
+        <div class="sec10">
+            <h3>10. Link to Internal Sections of a Page with Anchor Elements</h3>
+            <p>
+                Anchor elements can also be used to create internal links to jump within a webpage. To accomplish this, assign the href<br>
+                attribute a value of '#id', id being the element you want to jump to's id attribute. An id attribute uniquely describes<br>
+                an element.
+            </p>
+            <h5>Example:</h5>
+            <p>&lta href="#main-title">Jump to the top of webpage&lt/a&gt</p>
+            <a href="#main-title">Jump to the top of webpage</a>
+        </div>
+        <div class="sec11">
+            <h3>11. Nest an Anchor Element within a Paragrah</h3>
+            <p>
+                A common use of anchor elements is to nest them within a sentance.
+            </p>
+            <h5>Example:</h5>
+            <p>
+                This text is within a 'p' element and <a href="#" target="_blank">This text is within an 'a' element within a 'p' element</a><br>
+                and this is outside the 'a' element but inside the 'p' element.
+            </p>
+        </div>
+        <div class="sec12">
+            <h3>12. Make Dead Links Using the Hash Symbol</h3>
+            <p>
+                You can use the attribute href with a value of '#' to create a dead link. This can be useful when building a website without<br>
+                knowing where to link to yet. It can also be useful when using JavaScript. When a link is clicked with '#' as the href value<br>
+                it jumps to the top of the current page the link is clicked, so if there is a target attribute with the value of '_blank' it will<br> 
+                open the same page in a new tab.
+            </p>
+        </div>
+        <div class="sec13">
+            <h3>13. Turn an Image into a Link</h3>
+            <p>
+                Elements can be made into links by placeing the element within the anchor tag.
+            </p>
+            <h5>Example:</h5>
+            <a href="#"><img src="Images/cityscape1.jpg" alt="cityscape1"></a>
+            <p>Above image is a dead link</p>
+        </div>
+        <div class="sec14">
+            <h3>14. Create a Bulleted Unorderd List</h3>
+            <p>
+                Unordered list are created using the &ltul&gt tag and then within the unordered list opening and closing tag are &ltli&gt<br>
+                elements.
+            </p>
+            <h5>Example:</h5>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+            </ul>
+        </div>
+        <div class="sec15">
+            <h3>15. Create an Ordered List</h3>
+            <p>
+                Ordered lists are almost identical to unordered lists except they use the wrapper tag of &ltol&gt and instead of bullets<br>
+                they use numbers starting from 1.
+            </p>
+            <h5>Example:</h5>
+            <ol>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+            </ol>
+        </div>
+        <div class="sec16">
+            <h3>16. Line Breaks and Plain Text Tabs</h3>
+            <p>
+                The element for line breaks is the &ltbr> tag which inserts a new line.
+            </p>
+            <p>
+                To get a tab, write '&'' followed by 'emsp;'
+            </p>
+        </div>
+        <div class="sec17">
+            <h3>17. Create a Text Field</h3>
+            <p>
+                Web forms are an important part of webpages. The first step into the world of web forms is the input element. The way<br>
+                to use the input element is to create a text field with &ltinput type="text"&gt. As a side note, not all HTML elements<br>
+                require closing tags such as the img element and input element. These types of elements are called self-closing.
+            </p>
+            <h5>Example:</h5>
+            <input type="text">
+            <p>Above is text field</p>
+        </div>
+        <div class="sec18">
+            <h3>18. Add Placeholder Text to a Text Field</h3>
+            <p>
+                The text inside of an input field before a user has typed anything is known as placeholder text. This is accomplished<br>
+                by adding a placeholder attriibute to the element with a value of the text you want displayed.
+            </p>
+            <h5>Example:</h5>
+            <p>
+                &ltinput type="text" placeholder="this is placeholder text"> will look like
+            </p>
+            <input type="text" placeholder="this is placeholder text">
+        </div>
+        <div class="sec19">
+            <h3>19. Create a Form Element</h3>
+            <p>
+                It is possible to build webforms that can submit user data to a server with nothing but HTML. All you need to do is<br>
+                use the 'action' attribute on a 'form' element.
+            </p>
+            <h5>Example:</h5>
+            <p>
+                &ltform action="/url where form data goes"><br>
+                &emsp;&ltinput> <br> 
+                &lt/form>
+            </p>
+        </div>
+        <div class="sec20">
+            <h3>20. Add a submit button to a Form</h3>
+            <p>
+                The button element with a value of 'submit' in the type attribute will send the data from your form to the URL<br>
+                specified by the action attribute
+            </p>
+            <h5>Example:</h5>
+            <p>
+                &ltbutton type="submit">this button submits the form&lt/button>
+            </p>
+            <button type="submit">this button submits the form</button>
+        </div>
+        <div class="sec21">
+            <h3>21. Using HTML5 to Require a Field</h3>
+            <p>
+                You can make form fields required by using the 'required' attribute within the input element.
+            </p>
+            <h5>Example:</h5>
+            <p>
+                &ltinput type="text" required>
+            </p>
+            <form action="/url">
+                <input type="text" placeholder="This field is required" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="sec22">
+            <h3>22. Create a set of Radio Buttons</h3>
+            <p>
+                Use radio buttons when the question being asked can only have one answer out of many. Radio buttons are a type of input.<br>
+                When using radio buttons it is good practice to wrap the input element inside of a label element so the radio button is<br>
+                associated with the label.
+            </p>
+            <p>
+                All related radio buttons should have a name attribute that is the same for each button. This will create a group of<br>
+                radio buttons. This will ensure that when one radio button is selected, the rest of the radio buttons with the same<br>
+                name attribute get de-selected. This ensures only one answer may get picked.
+            </p>
+            <h5>Example:</h5>
+            <p>
+                &ltlabel><br>
+                &emsp;&ltinput><br> 
+                &lt/form>
+            </p>
+                It is best practice to use the 'for' attribute on the label element with a value that matches the id of input element.<br>
+                This will allow assistive technologies to create a linked relationship between the label and related input element.
+            </p>
+            <h5>Example:</h5>
+            <p>
+                &ltlabel for="indoor"> <br>
+                &emsp;&ltinput id="indoor" type="radio"
+                name="indoor-outdoor">Indoor <br>
+                &lt/label>
+            </p>
+            <label for="indoor"> 
+                <input id="indoor" type="radio" name="indoor-outdoor">Indoor 
+            </label>
+            <label for="outdoor"> 
+                <input id="outdoor" type="radio" name="indoor-outdoor">Outdoor 
+            </label>
+            <label for="mexico"> 
+                <input id="mexico" type="radio" name="indoor-outdoor">mexico 
+            </label>
+        </div>
+        <div class="sec23">
+                <h3>23. Create a Set of Checkboxes</h3>
+            <p>
+                If we want people to select more than one answer we give them all the checkboxes they want. Some fun facts about checkboxes<br>
+                are: they are input elements, they can also be sliped inside a couple labels just like our friend the radio, and pretty<br>
+                much the same as the radio except square and can click many.
+            </p>
+            <h5>Example:</h5>
+            <p>
+                &ltlabel for="Republican"> <br>
+                &emsp;&ltinput id="Republican" type="checkbox"
+                name="politics">Republican <br>
+                &lt/label>
+            </p>
+            <label for="Republican"> 
+                <input id="Republican" type="checkbox"
+                name="politics">Republican 
+            </label>
+            <label for="Democrat"> 
+                <input id="Democrat" type="checkbox"
+                name="politics">Democrat
+            </label>
+            <label for="Comunist Scum"> 
+                <input id="Comunist Scum" type="checkbox"
+                name="politics">Godwoken
+            </label>
+        </div>
+        <div class="sec24">
+            <h3>24. Use the value attribute with Radio Buttons and Checkboxes</h3>
+            <p>
+                When a form gets submitted, the data is sent to the server and includes entries for the options selected. Inputs<br>
+                of type radio and checkbox report their values from the value attribute.
+            </p>
+            <h5>For Example:</h5>
+            <p>
+                &ltlabel for="indoor"> <br>
+                &emsp;&ltinput id="indoor" value="indoor" type="radio" name="indoor-outdoor">Indoor<br>
+                &lt/label><br>
+                &ltlabel for="outdoor"><br>
+                &emsp;&ltinput id="outdoor" value="outdoor" type="radio" name="indoor-outdoor"><br>
+                &lt/label>
+            </p>
+            <p>
+                Here, you have two radio inputs. When the user submits the form with the indoor option selected, the form data will include<br>
+                the line: indoor-outdoor=indoor. This is from the name and value attributes of the "indoor" input.
+
+                If you omit the value attribute, the submitted form data uses the default value, which is on. In this scenario, if the<br>
+                user clicked the "indoor" option and submitted the form, the resulting form data would be indoor-outdoor=on, which is<br>
+                not useful. So the value attribute needs to be set to something to identify the option.
+            </p>
+        </div>
+        <div class="sec25">
+            <h3>25. Check Radio Buttons and Checkboxes by Default</h3>
+            <p>
+                You can set a checkbox or radio button to be checked by default using the checked attribute.<br>
+                To do this, just add the word checked to the inside of an input element.
+            </p>
+            <h5>For example:</h5>
+            <p>
+                &ltinput type="radio" name="test-name" checked>
+            </p>
+        </div>
+        <div class="sec26">
+            <h3>26. Nest Many Elements within a Single Div</h3>
+            <p>
+                The div element, also known as a division element, is a general purpose container for other elements.<br>
+                The div element is probably the most commonly used HTML element of all.<br>
+                Just like any other non-self-closing element, you can open a div element with %ltdiv> and close it on another line with<br>
+                &lt/div>.
+            </p>
+        </div>
+        <div class="sec27">
+            <h3>27. Declare the Doctype of an HTML Document</h3>
+            <p>
+                At the top of every document, you must specify which version of HTML you are using with the !DOCTYPE element. HTML is<br>
+                constantly changing and some web browsers may use different versions. The most common version when this was written is HTML5.
+            </p>
+            <h5>Example:</h5>
+            <p>
+                &lt!DOCTYPE html>
+                <br><br>
+                The rest of your code must be written between html tags
+            </p>
+            <h5>Example:</h5>
+            <p>
+                &lt!DOCTYPE html><br>
+                &lthtml>
+                <br>&emsp;Your Website<br>
+                &lt/html>
+            </p>
+        </div>
+        <div class="sec28">
+            <h3>28. Define the Head and Body of an HTML Document</h3>
+            <p>
+                To further organize the html, use head and body elements within the html element. Any markup with information about<br>
+                the page goes in the head and then content goes in the body. There are other elements that can go inside the head including<br>
+                the link, meta, title, and style elements.
+            </p>
+            <h5>Example:</h5>
+            <p>
+                &lt!DOCTYPE html><br>
+                &lthtml><br>
+                &emsp;&lthead><br>
+                &emsp;&emsp;&ltmeta/><br>
+                &emsp;&lt/head><br>
+                &emsp;&emsp;&ltdiv><br>
+                &emsp;&emsp;&lt/div><br>
+                &emsp;&ltbody><br>
+                &emsp;&lt/body><br>
+                &lt/html>
+            </p>
+        </div>
+        <div class="sec29">
+
+        </div>
+
+    </main>
+    <footer>
+        <p><a href="https://www.freecodecamp.org" target="_blank">www.freecodecamp.org</a></p>
+    </footer>
+</body>
+</html>
